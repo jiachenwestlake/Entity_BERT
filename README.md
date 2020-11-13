@@ -14,16 +14,16 @@ PyTorch 1.0.0
 ```
 
 ### Datasets
- - The **Novel dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1GESFNbZ0r0m1TYVqaZttnA) with key 'hcb7'
- - The **Finance dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/10nmORk-OfQoSV2kT50jiYg) with key '5tmz'
- - The **News dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1E5ZySyTbz5yY_RofWKBAkQ) with key '6w0e'. The NER data is sampled from [CLUENER-2020](https://github.com/CLUEbenchmark/CLUENER2020) and the raw data is taken from [THUCNews](https://github.com/thunlp/THUCTC)
+ - The **Novel dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1GESFNbZ0r0m1TYVqaZttnA) with key `hcb7`
+ - The **Finance dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/10nmORk-OfQoSV2kT50jiYg) with key `5tmz`
+ - The **News dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1E5ZySyTbz5yY_RofWKBAkQ) with key `6w0e`. The NER data is sampled from [CLUENER-2020](https://github.com/CLUEbenchmark/CLUENER2020) and the raw data is taken from [THUCNews](https://github.com/thunlp/THUCTC)
 
 
 ### Pretrained LM Weights and Models
- - The BERT-base weights can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1NAkhlpZp38zEWDn080ly0A) with key'3xic'
- - The pre-trained model by **our method** with **Novel dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1JQO70-XDlqrINAJnXzOrSA) with  key 'ek4e'
- - The pre-trained model by **our method** with **Finance dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1PIBWCQX9qCQ0APGS_xmmxw) with key 'eand'
- - The pre-trained model by **our method** with **News dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1472Zb90mvxF4Xz9GO5vxIw) with key '4oo0'
+ - The BERT-base weights can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1NAkhlpZp38zEWDn080ly0A) with key `3xic`
+ - The pre-trained model by **our method** with **Novel dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1JQO70-XDlqrINAJnXzOrSA) with  key `ek4e`
+ - The pre-trained model by **our method** with **Finance dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1PIBWCQX9qCQ0APGS_xmmxw) with key `eand`
+ - The pre-trained model by **our method** with **News dataset** can be downloaded from [Google Drive]() or [Baidu Disk](https://pan.baidu.com/s/1472Zb90mvxF4Xz9GO5vxIw) with key `4oo0`
 
 
 ### Usage
