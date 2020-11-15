@@ -1,7 +1,7 @@
 # Entity_BERT
 Entity Enhanced BERT Pre-training for Chinese NER, code for EMNLP 2020 paper
 
-A semi-supervised entity enhanced BERT pre-training method for Chinese NER. It is released with our EMNLP 2020 paper: [Entity Enhanced BERT Pre-training for Chinese NER](). This repo contains the code, model and data used in our paper. 
+A semi-supervised entity enhanced BERT pre-training method for Chinese NER. It is released with our EMNLP 2020 paper: [Entity Enhanced BERT Pre-training for Chinese NER](https://www.aclweb.org/anthology/2020.emnlp-main.518.pdf). This repo contains the code, model and data used in our paper. 
 
 
 ### Introduction
@@ -53,12 +53,12 @@ PyTorch 1.0.0
 ### Citation
 When you use the our paper or dataset, we would appreciate it if you cite the following:
 ```
-@inproceedings{jiadocuner,
+@inproceedings{jia2020entity,
   title={Entity Enhanced BERT Pre-training for Chinese NER},
-  author={Jia, Chen and Shi, Yuefeng and Yang, qinrong and Zhang, Yue},
+  author={Jia, Chen and Shi, Yuefeng and Yang, Qinrong and Zhang, Yue},
   booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-  pages={xxxx--xxxx},
-  publisher = "Association for Computational Linguistics",
+  pages={6384--6396},
+  publisher="Association for Computational Linguistics",
   year={2020}
 }
 ```
