@@ -28,17 +28,17 @@ PyTorch 1.0.0
 
 ### Usage
 #### Pre-training
-  - Download the data from the above links based on your demands and put the download file under 'document_level_ner\data' dictionary.
-  - Download the BERT-base weights([from Google](), [from Baidu]()) and put the download file under 'document_level_ner' dictionary. 
+  - Download the data from the above links based on your demands and put the download file under `document_level_ner\data` dictionary.
+  - Download the BERT-base weights([from Google](), [from Baidu]()) and put the download file under `document_level_ner` dictionary. 
   - Using the following command to run the pre-training code
   ```
   bash lm_pretrain.sh train
   ```
   The file `lm_pretrain.sh` contains dataset path and model hyperparameters.
 
-#### fine-tuneing
-  - Download the data from the above links based on your demands and put the download file under 'document_level_ner\data' dictionary.
-  - Download our pre-trained BERT weights(Novel:[from Google](), [from Baidu](), Finance:[from Google](), [from Baidu]() or News:[from Google](), [from Baidu]()) and put the download file under 'document_level_ner' dictionary. Or you can use your own pre-trained weights and put the file under 'document_level_ner' dictionary.
+#### Fine-tuning
+  - Download the data from the above links based on your demands and put the download file under `document_level_ner\data` dictionary.
+  - Download our pre-trained BERT weights(Novel:[from Google](), [from Baidu](), Finance:[from Google](), [from Baidu]() or News:[from Google](), [from Baidu]()) and put the download file under `document_level_ner` dictionary. Or you can use your own pre-trained weights and put the file under `document_level_ner` dictionary.
   - Using the following command to run the code
   ```
   cd bert_ner-master
