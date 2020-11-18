@@ -29,7 +29,7 @@ PyTorch 1.0.0
 ### Usage
 #### Pre-training
   - Download the data from the above links based on your demands and put the download file under `document_level_ner\data` dictionary.
-  - Download the BERT-base weights([from Google](), [from Baidu]()) and put the download file under `document_level_ner` dictionary. 
+  - Download the BERT-base weights and put the download file under `document_level_ner` dictionary. 
   - Using the following command to run the pre-training code
   ```
   bash lm_pretrain.sh train
