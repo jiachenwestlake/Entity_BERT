@@ -38,7 +38,7 @@ PyTorch 1.0.0
 
 #### Fine-tuning
   - Download the data from the above links based on your demands and put the download file under `document_level_ner\data` dictionary.
-  - Download our pre-trained BERT weights(Novel:[from Google](), [from Baidu](), Finance:[from Google](), [from Baidu]() or News:[from Google](), [from Baidu]()) and put the download file under `document_level_ner` dictionary. Or you can use your own pre-trained weights and put the file under `document_level_ner` dictionary.
+  - Download our pre-trained BERT weights(Novel, Finance or News) and put the download file under `document_level_ner` dictionary. Or you can use your own pre-trained weights and put the file under `document_level_ner` dictionary.
   - Using the following command to run the code
   ```
   cd bert_ner-master
