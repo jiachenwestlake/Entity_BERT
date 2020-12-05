@@ -10,12 +10,20 @@ from metrics import classification_report
 import os
 import numpy as np
 import argparse
+import io
+
+
 
 # from pytorch_pretrained_bert import BertTokenizer
 import sys
 sys.path.append('../')
 from utils.tokenization import BertTokenizer
 from data.data_loader import EntityDict
+
+def setup_io():
+    sys.stdout = sys.__stdout__ = io.TextIOWrapper(sys.stdout.detach(), encoding='utf-8', line_buffering=True)
+    sys.stderr = sys.__stderr__ = io.TextIOWrapper(sys.stderr.detach(), encoding='utf-8', line_buffering=True)
+setup_io()
 
 def train_epoch(model, iterator, optimizer, criterion, tokenizer):
     model.train()
