@@ -3,7 +3,7 @@
 # --dataset lm_raw_data_finance
 # --bert_model_dir ../LM_pretrained_finance
 # --trainset ../data/dataset_finance/ner/MSRA_train_dev_title.char.bmes
-# --validset ../data/dataset_finance/ner/annual_report_anno_part1\&2_title.txt
+# --validset ../data/dataset_finance/ner/test_finance_all_title.txt
 # --testset ../data/dataset_finance/ner/test_finance_all_title.txt
 # --logdir checkpoints/finetuning/finance
 
